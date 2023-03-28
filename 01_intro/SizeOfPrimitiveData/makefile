@@ -1,0 +1,4 @@
+05_SizeOfPrimitiveDataTypes:05_SizeOfPrimitiveDataTypes.o
+	gcc 05_SizeOfPrimitiveDataTypes.o -o 05_SizeOfPrimitiveDataTypes
+05_SizeOfPrimitiveDataTypes.o:05_SizeOfPrimitiveDataTypes.c
+	gcc -c 05_SizeOfPrimitiveDataTypes.c
